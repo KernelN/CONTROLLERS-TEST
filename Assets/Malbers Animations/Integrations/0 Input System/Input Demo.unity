@@ -1,0 +1,2819 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 378920174}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &69409965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 69409967}
+  - component: {fileID: 69409966}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &69409966
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69409965}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &69409967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69409965}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &149972042
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1438017827249262, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_Name
+      value: Wolf Lite
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417229628137580, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222225517902476, guid: a578de702f2191b4fa9cdcec1ad493c5,
+        type: 3}
+      propertyPath: ShowOnPlay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222225517902476, guid: a578de702f2191b4fa9cdcec1ad493c5,
+        type: 3}
+      propertyPath: Editor_Tabs1
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222225517902476, guid: a578de702f2191b4fa9cdcec1ad493c5,
+        type: 3}
+      propertyPath: Editor_Tabs2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114515738253532648, guid: a578de702f2191b4fa9cdcec1ad493c5,
+        type: 3}
+      propertyPath: Events.Array.data[0].Response.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114392047167580918, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a578de702f2191b4fa9cdcec1ad493c5, type: 3}
+--- !u!1 &347753071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 347753074}
+  - component: {fileID: 347753073}
+  - component: {fileID: 347753072}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &347753072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347753071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_PointAction: {fileID: -1012008539474072692, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_MoveAction: {fileID: 8084289096398548279, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_SubmitAction: {fileID: 8303549922044966893, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_CancelAction: {fileID: 6811662509294188083, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_LeftClickAction: {fileID: 4523783722572047236, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_MiddleClickAction: {fileID: 8685579936695974647, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_RightClickAction: {fileID: -7499037700666465256, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 7711638318975266125, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_TrackedDevicePositionAction: {fileID: -385319368823440879, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: -2094074316354189322, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+--- !u!114 &347753073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347753071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &347753074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347753071}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &375064649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1687954435391512, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_Name
+      value: Respawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687954435391512, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455119416797234, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114776409365645682, guid: 4314a73211c85fd4492c1bd44c74fc62,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1734464217}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4314a73211c85fd4492c1bd44c74fc62, type: 3}
+--- !u!850595691 &378920174
+LightingSettings:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings.lighting
+  serializedVersion: 4
+  m_GIWorkflowMode: 0
+  m_EnableBakedLightmaps: 1
+  m_EnableRealtimeLightmaps: 0
+  m_RealtimeEnvironmentLighting: 1
+  m_BounceScale: 1
+  m_AlbedoBoost: 1
+  m_IndirectOutputScale: 1
+  m_UsingShadowmask: 1
+  m_BakeBackend: 1
+  m_LightmapMaxSize: 1024
+  m_BakeResolution: 40
+  m_Padding: 2
+  m_LightmapCompression: 3
+  m_AO: 0
+  m_AOMaxDistance: 1
+  m_CompAOExponent: 1
+  m_CompAOExponentDirect: 0
+  m_ExtractAO: 0
+  m_MixedBakeMode: 2
+  m_LightmapsBakeMode: 1
+  m_FilterMode: 1
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+  m_ExportTrainingData: 0
+  m_TrainingDataDestination: TrainingData
+  m_RealtimeResolution: 2
+  m_ForceWhiteAlbedo: 0
+  m_ForceUpdates: 0
+  m_FinalGather: 0
+  m_FinalGatherRayCount: 256
+  m_FinalGatherFiltering: 1
+  m_PVRCulling: 1
+  m_PVRSampling: 1
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 512
+  m_PVREnvironmentSampleCount: 256
+  m_PVREnvironmentReferencePointCount: 2048
+  m_LightProbeSampleCountMultiplier: 4
+  m_PVRBounces: 2
+  m_PVRMinBounces: 2
+  m_PVREnvironmentMIS: 1
+  m_PVRFilteringMode: 1
+  m_PVRDenoiserTypeDirect: 1
+  m_PVRDenoiserTypeIndirect: 1
+  m_PVRDenoiserTypeAO: 1
+  m_PVRFilterTypeDirect: 0
+  m_PVRFilterTypeIndirect: 0
+  m_PVRFilterTypeAO: 0
+  m_PVRFilteringGaussRadiusDirect: 1
+  m_PVRFilteringGaussRadiusIndirect: 5
+  m_PVRFilteringGaussRadiusAO: 2
+  m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+  m_PVRFilteringAtrousPositionSigmaIndirect: 2
+  m_PVRFilteringAtrousPositionSigmaAO: 1
+  m_PVRTiledBaking: 0
+--- !u!1001 &512253700
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036506, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963417619962036509, guid: 2cafba43808da7f4392a1e02a0a645c0,
+        type: 3}
+      propertyPath: m_Name
+      value: CM Third Person Main (Input Sys)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2cafba43808da7f4392a1e02a0a645c0, type: 3}
+--- !u!1 &717938987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 717938991}
+  - component: {fileID: 717938990}
+  - component: {fileID: 717938989}
+  - component: {fileID: 717938988}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &717938988
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717938987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &717938989
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717938987}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cc8757e4d481ce646a8bb4a5af0ca3e9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &717938990
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717938987}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &717938991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717938987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 8.0114, y: 8.0114, z: 8.0114}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &870846910
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1086986387696008, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_Name
+      value: CM Brain
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973453112627144, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20092073445527294, guid: 7721b17458de7274da9fb6df12db1326,
+        type: 3}
+      propertyPath: field of view
+      value: 38
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+--- !u!1 &1734464217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1438017827249262, guid: a578de702f2191b4fa9cdcec1ad493c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 149972042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1734464218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734464217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 50fd2809-3aa3-4a90-988e-1facf6773553
+    m_ActionName: Gameplay/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3b7311d8-021d-4664-897c-dd0a4acae771
+    m_ActionName: Gameplay/UpDown[/Keyboard/space,/Keyboard/c]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c60e0974-d140-4597-a40e-9862193067e9
+    m_ActionName: Gameplay/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1077f913-a9f9-41b1-acb3-b9ee0adbc744
+    m_ActionName: Gameplay/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e7772c51-01e1-4bfa-a469-2d8a9687f623
+    m_ActionName: Gameplay/Sprint[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b5ebc87a-77ed-476b-bb45-e85027878b45
+    m_ActionName: Gameplay/Interact[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 53269086-6363-4e07-bae1-37dff57da239
+    m_ActionName: Gameplay/Mount[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 136ab1ec-63d3-4ec9-99e1-347c2d45e497
+    m_ActionName: Gameplay/Attack1[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 692160c1-e814-4727-b954-09679bcc60ec
+    m_ActionName: Gameplay/Attack2[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9683d141-940d-4b9e-aaff-3848eead2ded
+    m_ActionName: Gameplay/Crouch[/Keyboard/c]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8fd92621-9b06-4702-a5d4-f2b1d911906e
+    m_ActionName: Gameplay/Dodge[/Keyboard/ctrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: eaf15bad-8b50-44c2-8df4-2b5bee227a5c
+    m_ActionName: Gameplay/Strafe[/Keyboard/tab]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 46b05b23-8b4f-4ba4-9fac-1d3ff99adb0e
+    m_ActionName: Gameplay/SpeedUp[/Keyboard/2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 86f8d059-aa47-4687-ab4a-62f9ef397290
+    m_ActionName: Gameplay/SpeedDown[/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6244485f-557f-4b25-a009-fba12566fc26
+    m_ActionName: Gameplay/Pause[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8bdcf030-e2a3-4b0d-8147-6ff6279b523d
+    m_ActionName: Gameplay/Aim[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 11ad2432-fb7e-4dbe-985d-03658092b3f7
+    m_ActionName: Gameplay/Join[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4dfdbc4d-94b2-48e5-8079-c752cc5bd640
+    m_ActionName: Gameplay/Zoom[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 430be1cb-83c2-416b-a185-22653d66aad2
+    m_ActionName: Riding/Mount Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d738a735-eb24-4e9e-bdb2-3fdb8f1f436a
+    m_ActionName: Riding/SpeedDown[/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: aae63b85-2f12-45b8-b495-6131a9197396
+    m_ActionName: Riding/SpeedUp[/Keyboard/2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7e9348d8-f965-4333-866c-a2614b0a73fa
+    m_ActionName: Riding/Mount UpDown[/Keyboard/space,/Keyboard/c]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 56ef41d6-9527-4e78-be5c-6f791b19949c
+    m_ActionName: Riding/Mount Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: aa2c63a9-b17a-48e9-905b-31ffc72cbd16
+    m_ActionName: Riding/Mount Interact[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 237ebdfe-4f05-444e-a66a-8a28f9275b5b
+    m_ActionName: Riding/Mount Sprint[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fbe232e5-b90c-4ae3-8dcd-05e63bf559ac
+    m_ActionName: Riding/Mount Strafe[/Keyboard/tab]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 24fe4fa1-c780-49e4-b6b3-e2efb9b20558
+    m_ActionName: Riding/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1770a5a9-d808-4b6b-821d-f1651948ba29
+    m_ActionName: Riding/Aim[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7d087d78-aea7-43ef-9b01-08afda4eb9a6
+    m_ActionName: Riding/Attack1[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4b825301-f301-4cfe-ae3b-dc76f598583d
+    m_ActionName: Riding/Dismount[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 689254aa-cad9-48ed-9863-4f03823a6608
+    m_ActionName: Riding/Inventory 1[/Keyboard/3]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 17252af2-b874-44cc-aaf6-5fff66045bf9
+    m_ActionName: Riding/Inventory 2[/Keyboard/4]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f919ac07-452b-4b71-84a3-44987202fc7d
+    m_ActionName: Riding/Inventory 3[/Keyboard/5]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 63fc3edb-647b-49ff-b483-06d38aa9da42
+    m_ActionName: Riding/Inventory 4[/Keyboard/6]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: caf06514-58e9-4b71-a96c-9fdc40c96b07
+    m_ActionName: Riding/Reload[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8fedac01-6e8f-4dc1-b1d8-89d4ac2328dc
+    m_ActionName: Riding/Pause[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0288a0de-42af-4752-8b26-66b8eb3bca5b
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4dd28e93-bb9c-4a36-a8c7-59e6007a98ea
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 633347bb-7144-4fcf-92f1-204ea326466f
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1f9552fe-af1c-4de7-9b4e-c56e1611c06f
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 56e966b6-d5bd-435f-959f-bcb430572de3
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6d11aa23-d8b9-491d-8dce-2e1a89873d90
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 747cc115-aa53-4a23-a67b-cb11a25c952c
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 00ce0618-b1b2-4eee-a8e9-171f20b29abd
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 20387ab5-5ddc-40c0-8a9b-6add376748ee
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ad4069da-54f9-4cac-a42e-24545c13a94f
+    m_ActionName: UI/TrackedDeviceOrientation
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Gameplay
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &1734464219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734464217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28890a41834da814d83616f18995198b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInput: {fileID: 1734464218}
+  InputActions: {fileID: -944628639613478452, guid: f006110a172c10f4c8e1027983a87f42,
+    type: 3}
+  ActiveActionMapIndex: 1
+  ShowMapIndex: 0
+  ActiveMActionMap:
+    Index: 0
+    Move: {fileID: -3191349354230456957, guid: f006110a172c10f4c8e1027983a87f42, type: 3}
+    UpDown: {fileID: 3516014182410567137, guid: f006110a172c10f4c8e1027983a87f42,
+      type: 3}
+    IgnoreForward:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    IgnoreHorizontal:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    IgnoreUpDown:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    ActionMap:
+      m_Name: 
+      m_Id: 
+      m_Asset: {fileID: 0}
+      m_Actions: []
+      m_Bindings: []
+    buttons:
+    - reference: {fileID: 4487774808754929522, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Jump
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 2610944140782005787, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Sprint
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1734464238}
+            m_TargetAssemblyTypeName: MalbersAnimations.Controller.MAnimal, MalbersAnimations
+            m_MethodName: set_Sprint
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 940361505211797540, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Attack2
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: -3577234916187228403, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Interact
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: -3066153943269417062, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: SpeedUp
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 7842680351687182530, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: SpeedDown
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 6834409598751944556, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Fly
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 6769070586820169213, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Strafe
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: -5858779659326646898, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Pause
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+  MoveAxis: {x: 0, y: 0, z: 0}
+  m_MapButtons:
+  - Index: 0
+    Move: {fileID: -3191349354230456957, guid: f006110a172c10f4c8e1027983a87f42, type: 3}
+    UpDown: {fileID: 3516014182410567137, guid: f006110a172c10f4c8e1027983a87f42,
+      type: 3}
+    IgnoreForward:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    IgnoreHorizontal:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    IgnoreUpDown:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    ActionMap:
+      m_Name: Gameplay
+      m_Id: 265c38f5-dd18-4d34-b198-aec58e1627ff
+      m_Asset: {fileID: -944628639613478452, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      m_Actions:
+      - m_Name: Move
+        m_Type: 0
+        m_ExpectedControlType: Vector2
+        m_Id: 50fd2809-3aa3-4a90-988e-1facf6773553
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 1
+      - m_Name: UpDown
+        m_Type: 0
+        m_ExpectedControlType: Axis
+        m_Id: 3b7311d8-021d-4664-897c-dd0a4acae771
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 1
+      - m_Name: Look
+        m_Type: 0
+        m_ExpectedControlType: Vector2
+        m_Id: c60e0974-d140-4597-a40e-9862193067e9
+        m_Processors: ScaleVector2(x=0.5,y=0.5)
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 1
+      - m_Name: Zoom
+        m_Type: 0
+        m_ExpectedControlType: Vector2
+        m_Id: cc550e5b-ef75-4f1f-aa1b-07bbc456481b
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 1
+      - m_Name: Jump
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: 1077f913-a9f9-41b1-acb3-b9ee0adbc744
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Sprint
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: e7772c51-01e1-4bfa-a469-2d8a9687f623
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Attack1
+        m_Type: 0
+        m_ExpectedControlType: Button
+        m_Id: 89baf2f6-bbdd-4d84-a960-03c8872bbfde
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 1
+      - m_Name: Attack2
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: 5ab9b090-ec9b-4b7e-9a9b-6e44ca793cd7
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Interact
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: b5ebc87a-77ed-476b-bb45-e85027878b45
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: SpeedUp
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: b1a30421-6bef-4637-b4b6-43a108e28ad6
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: SpeedDown
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: 5bff80b5-2043-4fa6-87ac-80390731b45f
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Fly
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: 2b1a79a6-50eb-46c6-a781-edea37687976
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Strafe
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: d45d21d4-2336-478c-afec-7be807a87a83
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Pause
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: 6244485f-557f-4b25-a009-fba12566fc26
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_Bindings:
+      - m_Name: 
+        m_Id: c106d6e6-2780-47ff-b318-396171bd54cc
+        m_Path: <Gamepad>/rightStick
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Look
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 578caa03-6827-4797-adfc-a59770c437fe
+        m_Path: <Pointer>/delta
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Look
+        m_Flags: 0
+      - m_Name: 
+        m_Id: abb776f3-f329-4f7b-bbf8-b577d13be018
+        m_Path: <Keyboard>/space
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Jump
+        m_Flags: 0
+      - m_Name: 
+        m_Id: f601e2de-9574-42ed-86ab-39f32d5d7bde
+        m_Path: <Gamepad>/buttonEast
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Jump
+        m_Flags: 0
+      - m_Name: 
+        m_Id: a73f5288-cc64-4972-ae2f-5ba56c2f5ec1
+        m_Path: <Gamepad>/leftStickPress
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Sprint
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 4857c354-9769-47df-946e-cba2a302c05a
+        m_Path: <Keyboard>/shift
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Sprint
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 662fe888-f141-4960-8b45-0b3512e7d85a
+        m_Path: <Gamepad>/buttonWest
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Interact
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 19aaf853-57e1-4fb0-b87b-542735bcc46f
+        m_Path: <Keyboard>/e
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Interact
+        m_Flags: 0
+      - m_Name: UD Keyboard
+        m_Id: 1802c09c-bd66-4eae-b4ed-bf75275d92c9
+        m_Path: 1DAxis(whichSideWins=1)
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: UpDown
+        m_Flags: 4
+      - m_Name: positive
+        m_Id: 9ec8d0dc-76a7-4edb-97c6-5f0640741ba4
+        m_Path: <Keyboard>/space
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: UpDown
+        m_Flags: 8
+      - m_Name: negative
+        m_Id: 4ae82b17-e041-4556-b7c6-c56dae7247a3
+        m_Path: <Keyboard>/c
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: UpDown
+        m_Flags: 8
+      - m_Name: UD GamePad
+        m_Id: 166b9e1e-01b4-44a0-b900-66ee2e2c7fb9
+        m_Path: 1DAxis(whichSideWins=1)
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: UpDown
+        m_Flags: 4
+      - m_Name: positive
+        m_Id: 04b883b9-f05d-4eb9-96d5-0be18e50758e
+        m_Path: <Gamepad>/leftShoulder
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: UpDown
+        m_Flags: 8
+      - m_Name: negative
+        m_Id: f9b1fdc1-1d75-400e-982d-0a2dfec978c0
+        m_Path: <Gamepad>/rightShoulder
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: UpDown
+        m_Flags: 8
+      - m_Name: 
+        m_Id: e1b8c4dd-7b3a-4db6-a93a-0889b59b1afc
+        m_Path: <Gamepad>/leftStick
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Move
+        m_Flags: 0
+      - m_Name: WASD
+        m_Id: a8dda377-fd63-48e8-9d46-4d4f741bb863
+        m_Path: 2DVector(mode=1)
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 4
+      - m_Name: up
+        m_Id: aa5158d0-2e5c-432a-a65a-b0ffb8759fac
+        m_Path: <Keyboard>/w
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: down
+        m_Id: 885a8003-67ea-4263-ae73-e039c46955bf
+        m_Path: <Keyboard>/s
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: left
+        m_Id: 777e0578-834c-4333-bed1-a4f8750c9f0d
+        m_Path: <Keyboard>/a
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: right
+        m_Id: feff4027-5172-4de0-ada7-998a9c2bf4a0
+        m_Path: <Keyboard>/d
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: 
+        m_Id: e35210d2-f28e-485e-8c00-3569dba6f9bf
+        m_Path: <Keyboard>/2
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: SpeedUp
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 656e1cfe-7f4d-40c1-b29b-22214b69a2f4
+        m_Path: <Gamepad>/rightShoulder
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: SpeedUp
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 287de0a6-53b1-4587-9061-3b2799618125
+        m_Path: <Keyboard>/1
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: SpeedDown
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 6cfcbf38-f512-41d5-a7b1-13017f092e08
+        m_Path: <Gamepad>/leftShoulder
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: SpeedDown
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 38f23f5e-5e95-4834-b081-06a454300f67
+        m_Path: <Gamepad>/leftTrigger
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Attack2
+        m_Flags: 0
+      - m_Name: 
+        m_Id: faefc1ef-277b-4096-9729-e252f9d3c5a4
+        m_Path: <Mouse>/rightButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Attack2
+        m_Flags: 0
+      - m_Name: 
+        m_Id: a2c329aa-e126-4982-b34f-70738e50ac1f
+        m_Path: <Gamepad>/rightTrigger
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Attack1
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 41665f2d-66a7-49c4-813a-8b5e54d6cc84
+        m_Path: <Mouse>/leftButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Attack1
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 7426b631-3b64-41a6-a732-349d8e01d18f
+        m_Path: <Keyboard>/q
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Fly
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 5a75e8eb-b5bc-4e74-92ee-b3aea4edea5d
+        m_Path: <Gamepad>/start
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Pause
+        m_Flags: 0
+      - m_Name: 
+        m_Id: ee10d6fa-c492-4daf-b672-b27f42e34270
+        m_Path: <Keyboard>/escape
+        m_Interactions: MultiTap(tapTime=0.2,tapDelay=0.4,tapCount=3,pressPoint=0.5)
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Pause
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 8fbf1007-effb-421b-a791-348980713582
+        m_Path: <Keyboard>/tab
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Strafe
+        m_Flags: 0
+      - m_Name: 
+        m_Id: a42dca90-ac15-4176-9ec9-908ca6477687
+        m_Path: <Gamepad>/rightStick/down
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: GamePad
+        m_Action: Strafe
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 85ccd600-ddd1-4fa5-8bbe-eb1675646f0c
+        m_Path: <Gamepad>{Player1}/rightStick
+        m_Interactions: Press
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Zoom
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 429ce1c6-5487-4bfb-a962-71af7fccfc7f
+        m_Path: <Mouse>/scroll
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard and Mouse
+        m_Action: Zoom
+        m_Flags: 0
+    buttons:
+    - reference: {fileID: 4487774808754929522, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Jump
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 2610944140782005787, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Sprint
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1734464238}
+            m_TargetAssemblyTypeName: MalbersAnimations.Controller.MAnimal, MalbersAnimations
+            m_MethodName: set_Sprint
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 940361505211797540, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 6
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Attack1
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: -3577234916187228403, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Interact
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: -3066153943269417062, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 1
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: SpeedUp
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 7842680351687182530, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 0
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: SpeedDown
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 6834409598751944556, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 7
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Fly
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+    - reference: {fileID: 6769070586820169213, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ResetOnDisable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      interaction: 5
+      DoubleTapTime:
+        UseConstant: 1
+        ConstantValue: 0.3
+        Variable: {fileID: 0}
+      LongPressTime:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      PressThreshold:
+        UseConstant: 1
+        ConstantValue: 0.5
+        Variable: {fileID: 0}
+      debug: 0
+      name: Strafe
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1734464238}
+            m_TargetAssemblyTypeName: MalbersAnimations.Controller.MAnimal, MalbersAnimations
+            m_MethodName: set_Strafe
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloatValue:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputV2Value:
+        m_PersistentCalls:
+          m_Calls: []
+  - Index: 1
+    Move: {fileID: 0}
+    UpDown: {fileID: 0}
+    IgnoreForward:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    IgnoreHorizontal:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    IgnoreUpDown:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    ActionMap:
+      m_Name: UI
+      m_Id: 0fd4ae1e-3071-4604-9e12-5543e3811e15
+      m_Asset: {fileID: -944628639613478452, guid: f006110a172c10f4c8e1027983a87f42,
+        type: 3}
+      m_Actions:
+      - m_Name: Navigate
+        m_Type: 2
+        m_ExpectedControlType: Vector2
+        m_Id: 0392c4a3-4970-4ce2-9ea4-9c019c4c91b3
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Submit
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: 54a3451e-8dfc-419e-ac88-da60ba424778
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Cancel
+        m_Type: 1
+        m_ExpectedControlType: Button
+        m_Id: 4c2ddb03-a53f-4c89-9068-3362daa995d2
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: Point
+        m_Type: 2
+        m_ExpectedControlType: Vector2
+        m_Id: 3993f898-7de0-4b7d-9490-ae183292a066
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 1
+      - m_Name: Click
+        m_Type: 2
+        m_ExpectedControlType: Button
+        m_Id: 35b15b2d-28ad-42ab-a6f7-a44cc811fe26
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 1
+      - m_Name: ScrollWheel
+        m_Type: 2
+        m_ExpectedControlType: Vector2
+        m_Id: aea5de21-0d02-4421-82bb-c19a06e4f325
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: MiddleClick
+        m_Type: 2
+        m_ExpectedControlType: Button
+        m_Id: 62acb584-ce00-42fe-8fb2-5b440daa60d8
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: RightClick
+        m_Type: 2
+        m_ExpectedControlType: Button
+        m_Id: 2810601d-c1d6-4192-b48f-dc69eb7040fc
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: TrackedDevicePosition
+        m_Type: 2
+        m_ExpectedControlType: Vector3
+        m_Id: d108312e-b4c0-4440-a66d-4d313620300b
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      - m_Name: TrackedDeviceOrientation
+        m_Type: 2
+        m_ExpectedControlType: Quaternion
+        m_Id: 6e7a4990-615f-442b-b647-dc37cfd48d0e
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_Bindings:
+      - m_Name: Gamepad
+        m_Id: 727642d5-c145-42b8-b677-2db44c01e1da
+        m_Path: 2DVector
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Navigate
+        m_Flags: 4
+      - m_Name: up
+        m_Id: 27e6ed6b-4bbe-43cf-b66c-fd54363cf6f0
+        m_Path: <Gamepad>/leftStick/up
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: up
+        m_Id: 8c5c9a68-9093-4e2f-84ef-58cacaff3db0
+        m_Path: <Gamepad>/rightStick/up
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: down
+        m_Id: 0ca55822-6db8-4d33-ae1e-0122fd769aef
+        m_Path: <Gamepad>/leftStick/down
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: down
+        m_Id: a19c70dc-c1b5-4830-b81b-7bccca959b02
+        m_Path: <Gamepad>/rightStick/down
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: left
+        m_Id: 436bb1aa-5f5f-4413-ab2b-75e308dc9483
+        m_Path: <Gamepad>/leftStick/left
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: left
+        m_Id: 1e24b052-a0d5-48ba-8439-f4b6607d0948
+        m_Path: <Gamepad>/rightStick/left
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: right
+        m_Id: 1eab192f-e0de-49ef-9b8d-769042cb3b87
+        m_Path: <Gamepad>/leftStick/right
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: right
+        m_Id: 2ad991b8-640c-41a7-8dff-ffe787aa232a
+        m_Path: <Gamepad>/rightStick/right
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: 
+        m_Id: 23d9d11d-cfc1-4880-9587-5c61882036ce
+        m_Path: <Gamepad>/dpad
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Gamepad
+        m_Action: Navigate
+        m_Flags: 0
+      - m_Name: Joystick
+        m_Id: 0d0e6987-099a-4377-a1a5-3a962606a275
+        m_Path: 2DVector
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Navigate
+        m_Flags: 4
+      - m_Name: up
+        m_Id: 63f372bd-b1fa-46fd-b81f-1af64e89c725
+        m_Path: <Joystick>/stick/up
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Joystick
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: down
+        m_Id: b5bccbcf-aeee-4f6a-859a-b5047a1a5cb9
+        m_Path: <Joystick>/stick/down
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Joystick
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: left
+        m_Id: 4ae97ab2-de5a-4a4e-a70b-6d356302118f
+        m_Path: <Joystick>/stick/left
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Joystick
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: right
+        m_Id: b30b0e63-b17b-4d7d-8daf-5ac936d164a7
+        m_Path: <Joystick>/stick/right
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Joystick
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: Keyboard
+        m_Id: dbc7eb4f-0740-43e0-a9c7-b99d0bedfbf5
+        m_Path: 2DVector
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Navigate
+        m_Flags: 4
+      - m_Name: up
+        m_Id: bcc5df14-e91c-4981-970c-59d32a263be5
+        m_Path: <Keyboard>/w
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: up
+        m_Id: 4e448695-f7ee-4c0f-b4a9-414076b18a9f
+        m_Path: <Keyboard>/upArrow
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: down
+        m_Id: 2b4c52a6-5ad2-4ff5-806c-d92d92ea18fd
+        m_Path: <Keyboard>/s
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: down
+        m_Id: e691c796-3cbb-401d-bfa8-9579163f3bb5
+        m_Path: <Keyboard>/downArrow
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: left
+        m_Id: 68000071-1713-4e80-b4ed-35292a033840
+        m_Path: <Keyboard>/a
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: left
+        m_Id: 0d3d32d6-c2aa-4fc6-a907-74e802f53e34
+        m_Path: <Keyboard>/leftArrow
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: right
+        m_Id: ee35650c-617b-47a8-a32a-8bb047eb64f9
+        m_Path: <Keyboard>/d
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: right
+        m_Id: d4899018-a951-439f-aa4a-09c54e4f0cf9
+        m_Path: <Keyboard>/rightArrow
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Navigate
+        m_Flags: 8
+      - m_Name: 
+        m_Id: fcbcf3e4-3e34-4b79-9ae9-7f1e4568a324
+        m_Path: '*/{Submit}'
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse;Gamepad;Touch;Joystick;XR
+        m_Action: Submit
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 08d2bb66-1ec2-406b-bd8d-764ca57c5c77
+        m_Path: '*/{Cancel}'
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse;Gamepad;Touch;Joystick;XR
+        m_Action: Cancel
+        m_Flags: 0
+      - m_Name: 
+        m_Id: e365d8cf-c62e-44ef-ac60-7f313c4491a4
+        m_Path: <Mouse>/position
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Point
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 3154604e-d265-4725-aa62-dd2c99b89e2b
+        m_Path: <Pen>/position
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Keyboard&Mouse
+        m_Action: Point
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 68aa91b7-ebe3-4072-ab76-76ee9b076d2c
+        m_Path: <Touchscreen>/touch*/position
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Touch
+        m_Action: Point
+        m_Flags: 0
+      - m_Name: 
+        m_Id: a847dfad-f69a-475a-9b8a-6cf7a98d79c8
+        m_Path: <Mouse>/leftButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Keyboard&Mouse
+        m_Action: Click
+        m_Flags: 0
+      - m_Name: 
+        m_Id: ba956cad-ef03-46ff-9d25-a37cb85c3bf0
+        m_Path: <Pen>/tip
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Keyboard&Mouse
+        m_Action: Click
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 82105283-eae9-440c-bfd9-d5b6237dfbdc
+        m_Path: <Touchscreen>/touch*/press
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: Touch
+        m_Action: Click
+        m_Flags: 0
+      - m_Name: 
+        m_Id: a3cf3370-f665-4eb5-ade5-2d105f633d71
+        m_Path: <XRController>/trigger
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: XR
+        m_Action: Click
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 1aee175b-bf68-4537-a6c7-c34e01a2a31f
+        m_Path: <Mouse>/scroll
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Keyboard&Mouse
+        m_Action: ScrollWheel
+        m_Flags: 0
+      - m_Name: 
+        m_Id: bb86c074-3982-4cd8-b45e-a551737ace00
+        m_Path: <Mouse>/middleButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Keyboard&Mouse
+        m_Action: MiddleClick
+        m_Flags: 0
+      - m_Name: 
+        m_Id: a8549b2f-fd24-443a-b939-31df78473198
+        m_Path: <Mouse>/rightButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: ;Keyboard&Mouse
+        m_Action: RightClick
+        m_Flags: 0
+      - m_Name: 
+        m_Id: c055ee23-92d3-476c-9dcb-5f4e58ba3429
+        m_Path: <XRController>/devicePosition
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: XR
+        m_Action: TrackedDevicePosition
+        m_Flags: 0
+      - m_Name: 
+        m_Id: e4cd1c7d-5e5a-4092-878c-df11c80b756b
+        m_Path: <XRController>/deviceRotation
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: XR
+        m_Action: TrackedDeviceOrientation
+        m_Flags: 0
+    buttons: []
+  Editor_Tabs1: 0
+  showInputEvents: 0
+  OnInputEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnActionMapChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 81c076a8debaf6948ae9e64f3a9f3acb, type: 2}
+        m_TargetAssemblyTypeName: MalbersAnimations.Events.MEvent, MalbersAnimations
+        m_MethodName: Invoke
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  CurrentControlScheme:
+    m_PersistentCalls:
+      m_Calls: []
+  OnControlsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeviceLost:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeviceRegained:
+    m_PersistentCalls:
+      m_Calls: []
+  IgnoreOnPause:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  debug: 0
+--- !u!114 &1734464238 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114222225517902476, guid: a578de702f2191b4fa9cdcec1ad493c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 149972042}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734464217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee1fbf4dd84c7d4faf7900812b348a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

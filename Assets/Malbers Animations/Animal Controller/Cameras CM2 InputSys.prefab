@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &801541416265394919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2254396404306872613, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: Events.Array.data[0].useInt
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2254396404306872613, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: Events.Array.data[0].useBool
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2254396404306872613, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: Events.Array.data[0].AdvancedBool
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2254396404306872613, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: Events.Array.data[0].useTransform
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2500877944475201274, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_Name
+      value: Cameras CM2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198963631602942452, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: field of view
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219855683256451266, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522904946663197592, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8867003669775313839, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+    - {fileID: 262260102723643083, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 8323331306781442190, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4766662921829352382, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2440494748094663744}
+  m_SourcePrefab: {fileID: 100100000, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+--- !u!1 &5276304547741509977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4766662921829352382, guid: 8a97fcfc0139bd246b36a72f911339c0, type: 3}
+  m_PrefabInstance: {fileID: 801541416265394919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2440494748094663744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5276304547741509977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2945c3e834cfb3c4caab495532274d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerIndex: -1
+  AutoEnableInputs: 1
+  LookAxis: {fileID: 2345856494744509873, guid: f006110a172c10f4c8e1027983a87f42, type: 3}
+  Zoom: {fileID: -1715722077549285638, guid: f006110a172c10f4c8e1027983a87f42, type: 3}
+  IgnoreOnPause:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  OnLookValue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5963417619962036505, guid: 2cafba43808da7f4392a1e02a0a645c0, type: 3}
+        m_TargetAssemblyTypeName: MalbersAnimations.ThirdPersonFollowTarget, MalbersAnimations.Cinemachine
+        m_MethodName: SetLook
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnZoomValue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3231308877533094737, guid: 2cafba43808da7f4392a1e02a0a645c0, type: 3}
+        m_TargetAssemblyTypeName: MalbersAnimations.ThirdPersonFollowZoom, MalbersAnimations.Cinemachine
+        m_MethodName: SetZoom
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c084bb85b499301498518868eb44437c, type: 3}
-  m_Name: On Device Changed
+  m_Name: On ActionMap Changed
   m_EditorClassIdentifier: 
-  Description: 'String: Invoked when the device its changed from Mouse and Keyboard
-    to Gamepad.
-
-    Int: Invoked the Index of the Current Player'
-  debug: 1
+  Description: "It's Invoked when the Action Map of the Input has changed \nResponse:
+    (String) Name of the Action Map"
+  debug: 0
   m_int:
     UseConstant: 1
     ConstantValue: 0
