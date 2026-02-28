@@ -100,7 +100,7 @@
                     "name": "Dodge",
                     "type": "Button",
                     "id": "8fd92621-9b06-4702-a5d4-f2b1d911906e",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -109,7 +109,7 @@
                     "name": "Strafe",
                     "type": "Button",
                     "id": "eaf15bad-8b50-44c2-8df4-2b5bee227a5c",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -226,7 +226,7 @@
                     "name": "NextTarget",
                     "type": "Button",
                     "id": "7e6e1051-cfe4-4362-ab3b-04469c99d62c",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -235,7 +235,7 @@
                     "name": "PreviousTarget",
                     "type": "Button",
                     "id": "633cb13c-9939-4aa5-950a-3a79744c3d66",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -278,7 +278,7 @@
                 {
                     "name": "",
                     "id": "a73f5288-cc64-4972-ae2f-5ba56c2f5ec1",
-                    "path": "<Gamepad>/buttonEast",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "GamePad",
@@ -454,7 +454,7 @@
                 {
                     "name": "",
                     "id": "4248d849-1e57-4ee7-a536-f44b12524738",
-                    "path": "<Gamepad>/rightStickPress",
+                    "path": "<Gamepad>/leftStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": "GamePad",
@@ -652,7 +652,7 @@
                 {
                     "name": "",
                     "id": "0a707a54-af03-4c13-a5b1-468affade6df",
-                    "path": "<Gamepad>/rightShoulder",
+                    "path": "<Gamepad>/rightStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": "GamePad",

@@ -4329,58 +4329,6 @@ MonoBehaviour:
         m_Action: Jump
         m_Flags: 0
     buttons:
-    - reference: {fileID: 4487774808754929522, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
-      active:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      ResetOnDisable:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      ignoreOnPause:
-        UseConstant: 1
-        ConstantValue: 0
-        Variable: {fileID: 0}
-      interaction: 0
-      DoubleTapTime:
-        UseConstant: 1
-        ConstantValue: 0.3
-        Variable: {fileID: 0}
-      LongPressTime:
-        UseConstant: 1
-        ConstantValue: 0.5
-        Variable: {fileID: 0}
-      PressThreshold:
-        UseConstant: 1
-        ConstantValue: 0.5
-        Variable: {fileID: 0}
-      debug: 0
-      name: Jump
-      OnInputDown:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputUp:
-        m_PersistentCalls:
-          m_Calls: []
-      OnLongPress:
-        m_PersistentCalls:
-          m_Calls: []
-      OnDoubleTap:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputChanged:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputPressed:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputFloatValue:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputV2Value:
-        m_PersistentCalls:
-          m_Calls: []
     - reference: {fileID: 2610944140782005787, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
       active:
         UseConstant: 1
@@ -4666,7 +4614,7 @@ MonoBehaviour:
         UseConstant: 1
         ConstantValue: 0
         Variable: {fileID: 0}
-      interaction: 0
+      interaction: 5
       DoubleTapTime:
         UseConstant: 1
         ConstantValue: 0.3
@@ -4748,70 +4696,6 @@ MonoBehaviour:
       OnInputChanged:
         m_PersistentCalls:
           m_Calls: []
-      OnInputPressed:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputFloatValue:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputV2Value:
-        m_PersistentCalls:
-          m_Calls: []
-    - reference: {fileID: -6482020519645991569, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
-      active:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      ResetOnDisable:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      ignoreOnPause:
-        UseConstant: 1
-        ConstantValue: 0
-        Variable: {fileID: 0}
-      interaction: 5
-      DoubleTapTime:
-        UseConstant: 1
-        ConstantValue: 0.3
-        Variable: {fileID: 0}
-      LongPressTime:
-        UseConstant: 1
-        ConstantValue: 0.5
-        Variable: {fileID: 0}
-      PressThreshold:
-        UseConstant: 1
-        ConstantValue: 0.5
-        Variable: {fileID: 0}
-      debug: 0
-      name: Strafe
-      OnInputDown:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputUp:
-        m_PersistentCalls:
-          m_Calls: []
-      OnLongPress:
-        m_PersistentCalls:
-          m_Calls: []
-      OnDoubleTap:
-        m_PersistentCalls:
-          m_Calls: []
-      OnInputChanged:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5175850389906281882}
-            m_TargetAssemblyTypeName: MalbersAnimations.Controller.MAnimal, MalbersAnimations
-            m_MethodName: set_Strafe
-            m_Mode: 0
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: 
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
       OnInputPressed:
         m_PersistentCalls:
           m_Calls: []
@@ -5042,7 +4926,7 @@ MonoBehaviour:
         UseConstant: 1
         ConstantValue: 0
         Variable: {fileID: 0}
-      interaction: 0
+      interaction: 5
       DoubleTapTime:
         UseConstant: 1
         ConstantValue: 0.3
