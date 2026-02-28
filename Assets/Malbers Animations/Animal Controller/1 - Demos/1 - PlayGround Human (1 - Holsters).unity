@@ -29699,90 +29699,70 @@ PrefabInstance:
       objectReference: {fileID: 1904114444}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.size
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[0].name
-      value: Sprint
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[1].name
-      value: Interact
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[2].name
-      value: Mount
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[3].name
-      value: MainAttack
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[4].name
-      value: SecondAttack
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[5].name
       value: Crouch
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[6].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[5].name
       value: Dodge
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[6].name
       value: SpeedUp
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[8].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].name
       value: SpeedDown
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[9].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[8].name
       value: Pause
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[10].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[9].name
       value: Aim
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[11].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[10].name
       value: LockTarget
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[12].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[11].name
       value: Glide
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[13].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[12].name
       value: Fly
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[14].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[13].name
       value: Left Holster
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[15].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[14].name
       value: Right Holster
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[16].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[15].name
       value: Back Holster
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[17].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[16].name
       value: Reload
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[18].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[17].name
       value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[19].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[18].name
       value: NextTarget
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[20].name
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[19].name
       value: PreviousTarget
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -29790,87 +29770,67 @@ PrefabInstance:
       value: PreviousTarget
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[0].reference
-      value: 
-      objectReference: {fileID: 2610944140782005787, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[1].reference
-      value: 
-      objectReference: {fileID: -3577234916187228403, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[2].reference
-      value: 
-      objectReference: {fileID: 8360740301348532594, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[3].reference
-      value: 
-      objectReference: {fileID: -7735620612283565921, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[4].reference
-      value: 
-      objectReference: {fileID: 2235536534754074785, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[5].reference
       value: 
       objectReference: {fileID: 4133576034772809435, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[6].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[5].reference
       value: 
       objectReference: {fileID: -2725511293770370521, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[6].reference
       value: 
       objectReference: {fileID: -1691766316938169901, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[8].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].reference
       value: 
       objectReference: {fileID: -1889586623032194627, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[9].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[8].reference
       value: 
       objectReference: {fileID: -5858779659326646898, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[10].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[9].reference
       value: 
       objectReference: {fileID: 7861778039206075700, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[11].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[10].reference
       value: 
       objectReference: {fileID: 1359804649596917361, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[12].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[11].reference
       value: 
       objectReference: {fileID: -3441758075941764136, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[13].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[12].reference
       value: 
       objectReference: {fileID: 141251807478467112, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[14].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[13].reference
       value: 
       objectReference: {fileID: 2917863855733996655, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[15].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[14].reference
       value: 
       objectReference: {fileID: 6877673775596200920, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[16].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[15].reference
       value: 
       objectReference: {fileID: 5702400380576477306, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[17].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[16].reference
       value: 
       objectReference: {fileID: -7374316593424367263, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[18].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[17].reference
       value: 
       objectReference: {fileID: -8996815420936037699, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[19].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[18].reference
       value: 
       objectReference: {fileID: -4189667906090903426, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[20].reference
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[19].reference
       value: 
       objectReference: {fileID: 8929788973212450526, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -29878,73 +29838,45 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8929788973212450526, guid: f718eaad8db14124cbbcc16185c8dace, type: 3}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[5].interaction
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[0].interaction
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[4].interaction
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].interaction
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[5].interaction
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[8].interaction
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[6].interaction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].interaction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[9].interaction
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[11].interaction
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[10].interaction
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[12].interaction
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[13].interaction
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[14].interaction
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[13].interaction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[15].interaction
+      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[12].active.ConstantValue
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[13].active.ConstantValue
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[14].active.ConstantValue
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[15].active.ConstantValue
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[0].OnInputChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[1].OnInputChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].OnInputChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[8].OnInputChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[0].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1835467559}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -29974,16 +29906,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1835467559}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[0].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[0].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_Sprint
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[10].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -30036,10 +29960,6 @@ PrefabInstance:
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[18].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_Strafe
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
-      propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[0].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MalbersAnimations.Controller.MAnimal, MalbersAnimations
       objectReference: {fileID: 0}
     - target: {fileID: 8031142612563639695, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: m_MapButtons.Array.data[0].buttons.Array.data[7].OnInputChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
