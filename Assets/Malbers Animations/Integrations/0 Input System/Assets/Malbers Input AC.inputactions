@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "Malbers Input AC",
     "maps": [
         {
@@ -36,7 +37,7 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "1077f913-a9f9-41b1-acb3-b9ee0adbc744",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -45,7 +46,7 @@
                     "name": "Sprint",
                     "type": "Button",
                     "id": "e7772c51-01e1-4bfa-a469-2d8a9687f623",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -63,7 +64,7 @@
                     "name": "Mount",
                     "type": "Button",
                     "id": "53269086-6363-4e07-bae1-37dff57da239",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -90,7 +91,7 @@
                     "name": "Crouch",
                     "type": "Button",
                     "id": "9683d141-940d-4b9e-aaff-3848eead2ded",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -108,7 +109,7 @@
                     "name": "Strafe",
                     "type": "Button",
                     "id": "eaf15bad-8b50-44c2-8df4-2b5bee227a5c",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -175,6 +176,51 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Glide",
+                    "type": "Button",
+                    "id": "c50095b6-bf72-460b-9794-d62d1402eede",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LockTarget",
+                    "type": "Button",
+                    "id": "c1581d94-6bee-449d-b1d8-03f39c3a7fa0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftHolster",
+                    "type": "Button",
+                    "id": "deefecf9-d94e-47c2-a1d7-36b6b62829e7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightHolster",
+                    "type": "Button",
+                    "id": "3284b8ae-b7a4-443b-8366-328e754fc9a2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BackHolster",
+                    "type": "Button",
+                    "id": "e3ab491f-9d74-4246-afc7-92b0d2cb2fa7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -214,7 +260,7 @@
                 {
                     "name": "",
                     "id": "f601e2de-9574-42ed-86ab-39f32d5d7bde",
-                    "path": "<Gamepad>/buttonEast",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "GamePad",
@@ -225,7 +271,7 @@
                 {
                     "name": "",
                     "id": "a73f5288-cc64-4972-ae2f-5ba56c2f5ec1",
-                    "path": "<Gamepad>/leftStickPress",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "GamePad",
@@ -434,7 +480,7 @@
                 {
                     "name": "",
                     "id": "4248d849-1e57-4ee7-a536-f44b12524738",
-                    "path": "<Gamepad>/buttonSouth",
+                    "path": "<Gamepad>/rightStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -522,7 +568,7 @@
                 {
                     "name": "",
                     "id": "bc44eaa6-d3ea-44c7-b538-84e1e76e2cc7",
-                    "path": "<Gamepad>/rightStickPress",
+                    "path": "<Gamepad>/leftStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": "GamePad",
@@ -681,6 +727,61 @@
                     "processors": "",
                     "groups": "",
                     "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "29924c88-2d7d-49a1-9d6c-5027702a1c59",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";GamePad",
+                    "action": "Glide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8de5a184-1509-4ab8-8e1c-6814119f5c36",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";GamePad",
+                    "action": "LockTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f12a3ccf-4865-49f0-960a-185cd5ff4ffc",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";GamePad",
+                    "action": "LeftHolster",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fc85b272-bcbf-47f3-af8e-3dfe1280e2f0",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";GamePad",
+                    "action": "RightHolster",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35af9cf5-69dd-46f9-87a6-d085ddc348b6",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackHolster",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
