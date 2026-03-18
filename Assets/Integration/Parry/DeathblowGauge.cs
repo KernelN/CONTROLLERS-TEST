@@ -1,5 +1,6 @@
 using UnityEngine;
 using Flame.Gameplay.Damage;
+using UnityEngine.Events;
 
 namespace Flame.Gameplay.Combat
 {
@@ -16,15 +17,15 @@ namespace Flame.Gameplay.Combat
         [SerializeField] AnimationCurve healthToChargeMult = new AnimationCurve(new Keyframe(0, 2f), new Keyframe(1, 0.5f));
         
         [Header("Full Bar Behavior")]
-        [SerializeField] float specialHoldingTime = 5f; // Time before bar drops when full
-        [SerializeField] float specialDecreaseValue = 20f; // Faster decay when missed deathblow
+        [Tooltip("Time before bar drops when full"),SerializeField] float specialHoldingTime = 5f;
+        [Tooltip("Faster decay when missed deathblow"),SerializeField] float specialDecreaseValue = 20f;
 
         // Dependencies
         [SerializeField] Hittable hittable; 
-        // Assuming you have a Health component. Using a placeholder float for now.
-        public float currentHealthPct = 1.0f; 
+        public float currentHealthPer = 1.0f; 
 
         // Runtime
+        public UnityEvent<DeathblowChargeType> ChargeIncreased;
         public float CurrentCharge { get; private set; }
         public bool IsStaggered { get; private set; }
 
@@ -55,13 +56,15 @@ namespace Flame.Gameplay.Combat
 
             // Calculate Charge based on Damage and Health Multiplier
             float damageVal = hittable.dmg != null ? hittable.dmg.value : 10f;
-            float multiplier = healthToChargeMult.Evaluate(currentHealthPct);
+            float multiplier = healthToChargeMult.Evaluate(currentHealthPer);
             
             AddCharge(damageVal * multiplier, DeathblowChargeType.NormalHit);
         }
 
         public void AddCharge(float amount, DeathblowChargeType type)
         {
+            ChargeIncreased?.Invoke(type);
+            
             if (IsStaggered && type != DeathblowChargeType.NormalHit) 
             {
                 // Hitting/Parrying an already staggered enemy keeps them staggered longer

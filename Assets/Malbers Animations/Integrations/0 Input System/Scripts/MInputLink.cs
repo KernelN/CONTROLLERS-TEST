@@ -28,6 +28,11 @@ namespace MalbersAnimations.InputSystem
     [DisallowMultipleComponent]
     public class MInputLink : MonoBehaviour, IInputSource
     {
+        public void DebugInput()
+        {
+            Debug.Log("Debug");
+        }
+        
 #if ENABLE_INPUT_SYSTEM
         ///// <summary> Current Active Action Map Index</summary>
         public static List<MInputLink> MInputLinks { get; protected set; }
