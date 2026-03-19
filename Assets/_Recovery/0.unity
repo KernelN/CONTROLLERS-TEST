@@ -22682,11 +22682,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4690422963248908, guid: aa3adfd5958b2114592cdff1ec26c7de, type: 3}
   m_PrefabInstance: {fileID: 1355568764}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1157142193 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1482547797296730177, guid: 86cb8d17183122d4abdfecb0ad0d29a1, type: 3}
-  m_PrefabInstance: {fileID: 8329202301066010434}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1158888848
 GameObject:
   m_ObjectHideFlags: 0
@@ -29092,7 +29087,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1514791347451722763, guid: 86cb8d17183122d4abdfecb0ad0d29a1, type: 3}
   m_PrefabInstance: {fileID: 8329202301066010434}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157142193}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e68ae3fe8f7441a4295233abdec97784, type: 3}
@@ -29283,17 +29278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28890a41834da814d83616f18995198b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MalbersAnimations.InputSystem.MInputLink
---- !u!114 &1835467573 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 466442025418406278, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-  m_PrefabInstance: {fileID: 8222233190182685462}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835467558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580e703fe3c4ea64a855a7104b1d92f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1839350929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39536,7 +39520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 466442025418406278, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: Editor_Tabs2
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 466442025418406278, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: StoreSelfHolster
@@ -39592,39 +39576,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: Ability_Tabs
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: SelectedMode
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: modes.Array.size
       value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: modes.Array.data[16].ID
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: modes.Array.data[16].OnEnterReaction
-      value: 802999075678978119
       objectReference: {fileID: 0}
     - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: 'managedReferences[802999051482562804]'
       value: MalbersAnimations MalbersAnimations.Reactions.DebugReaction
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: 'managedReferences[802999075678978117]'
-      value: MalbersAnimations MalbersAnimations.Reactions.WeaponReaction
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: 'managedReferences[802999075678978118]'
-      value: MalbersAnimations MalbersAnimations.Reactions.ModeEnableReaction
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: 'managedReferences[802999075678978119]'
-      value: MalbersAnimations MalbersAnimations.Reactions.WeaponReaction
       objectReference: {fileID: 0}
     - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: managedReferences[802999051482562804].log
@@ -39635,56 +39595,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978117].delay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978118].delay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978119].delay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: managedReferences[802999051482562804].Active
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978117].Active
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978117].Weapon
-      value: 
-      objectReference: {fileID: 1157142193}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978118].Active
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978119].Active
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978119].Weapon
-      value: 
-      objectReference: {fileID: 1157142193}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978117].Actions
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978117].Holster
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978119].Actions
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978119].Holster
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: managedReferences[802999051482562804].MessageType
@@ -39695,57 +39607,13 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978118].TemporalEnable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978118].modes.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978118].modes.Array.data[0].ID
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: managedReferences[802999051482562804].localComponent.useLocal
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978117].localComponent.useLocal
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978118].localComponent.useLocal
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978119].localComponent.useLocal
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: managedReferences[802999051482562804].localComponent.component
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978117].localComponent.component
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978118].localComponent.component
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978119].localComponent.component
-      value: 
-      objectReference: {fileID: 1835467573}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: managedReferences[802999075678978118].modes.Array.data[0].enable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2551388677131720324, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
-      propertyPath: 'modes.Array.data[9].Abilities.Array.data[9].Limits.affectStates.Array.data[2]'
-      value: 
-      objectReference: {fileID: 11400000, guid: c44e7e8d6840aa243b6c33ec85052763, type: 2}
     - target: {fileID: 2551388677131720325, guid: a9ff2567f787db54d88b26ba051e0683, type: 3}
       propertyPath: m_Name
       value: FlameBearer

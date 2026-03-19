@@ -1,9 +1,10 @@
+using MalbersAnimations;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Flame.Gameplay.Combat
 {
-    public class ParryController : MonoBehaviour
+    public class ParryController : MonoBehaviour, IAnimatorListener
     {
         static readonly int Block = Animator.StringToHash("Block");
 
@@ -69,6 +70,13 @@ namespace Flame.Gameplay.Combat
             // Time.timeScale = 0f; (Handled by your game manager usually)
             
             return true; // Damage negated
+        }
+
+        public bool OnAnimatorBehaviourMessage(string message, object value)
+        {
+            if (message != "SetParryWindow") return false;
+            SetParryWindow((int)value);
+            return true;
         }
     }
 }

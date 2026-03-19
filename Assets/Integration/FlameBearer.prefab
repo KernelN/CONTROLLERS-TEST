@@ -169,6 +169,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -201,6 +205,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[9].Name
+      value: Parry
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].Name
       value: Parry
       objectReference: {fileID: 0}
@@ -209,7 +217,27 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[10].Name
+      value: Riding Attack Right Forward
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[11].Name
+      value: Riding Attack Left Backward
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[12].Name
+      value: Riding Attack Right Forward Inv
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].Name
+      value: Riding Attack Left Backward Inv
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].ReactExit
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ReactExit
       value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -217,7 +245,15 @@ PrefabInstance:
       value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ReactEnter
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].m_stopAudio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].m_stopAudio
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -226,6 +262,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: managedReferences[802999051482562806].modifiers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].Limits.affect
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -245,6 +285,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].AdditivePosition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].AdditiveRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: managedReferences[802999051482562805].localComponent.component
       value: 
       objectReference: {fileID: 0}
@@ -261,8 +309,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].Index.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].Input.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].active.UseConstant
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].active.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[9].Index.ConstantValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[9].Input.ConstantValue
+      value: Parry
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: managedReferences[802999051482562805].modifiers.Array.data[0].ID
@@ -285,11 +353,35 @@ PrefabInstance:
       value: Parry
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[10].Index.ConstantValue
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[11].Index.ConstantValue
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[12].Index.ConstantValue
+      value: -101
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].Index.ConstantValue
+      value: -102
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].CoolDown.UseConstant
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].active.ConstantValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].CoolDown.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].active.ConstantValue
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -299,6 +391,18 @@ PrefabInstance:
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].audioClip.UseConstant
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ClipDelay.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].audioClip.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[9].CoolDown.ConstantValue
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].CoolDown.ConstantValue
@@ -325,6 +429,22 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ChargeValue.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ClipDelay.ConstantValue
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].abilityTime.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].audioClip.ConstantValue
+      value: 
+      objectReference: {fileID: 8300000, guid: e2f13f4efc10aae4e89e06d4b804c6e2, type: 3}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].ChargeCurve.m_PreInfinity
       value: 2
       objectReference: {fileID: 0}
@@ -337,7 +457,23 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ChargeCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ChargeValue.ConstantValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].abilityTime.ConstantValue
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].ChargeCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ChargeCurve.m_PostInfinity
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -345,7 +481,19 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ChargeCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].ChargeCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ChargeCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].Limits.affectStates.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -360,6 +508,14 @@ PrefabInstance:
       propertyPath: managedReferences[802999051482562806].modifiers.Array.data[0].enable.Variable
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: 'modes.Array.data[9].Abilities.Array.data[13].Limits.affectStates.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: 'modes.Array.data[9].Abilities.Array.data[13].Limits.affectStates.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: managedReferences[802999051482562805].modifiers.Array.data[0].MaxValue.Variable
       value: 
@@ -437,6 +593,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ChargeCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: managedReferences[802999051482562805].modifiers.Array.data[0].MaxValue.ConstantValue
       value: 0
       objectReference: {fileID: 0}
@@ -462,6 +622,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
       propertyPath: modes.Array.data[16].Abilities.Array.data[0].ChargeCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      propertyPath: modes.Array.data[9].Abilities.Array.data[13].ChargeCurve.m_Curve.Array.data[1].value
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175850389906281883, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
@@ -1027,19 +1191,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5175850389906281883, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8829150917664152185}
   m_SourcePrefab: {fileID: 100100000, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
 --- !u!114 &2551388677131720324 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5175850389906281882, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
   m_PrefabInstance: {fileID: 7258688769691058974}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2551388677131720325}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ee1fbf4dd84c7d4faf7900812b348a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2551388677131720325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5175850389906281883, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
+  m_PrefabInstance: {fileID: 7258688769691058974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8829150917664152185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551388677131720325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f43cba703c1494cb58d15bbaa28cef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Flame.Gameplay.Combat.ParryController
+  softParryCharge: 10
+  perfectParryCharge: 25
+  onSoftParry:
+    m_PersistentCalls:
+      m_Calls: []
+  onPerfectParry:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &6558779097899793262 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4591837826288416880, guid: 9133169553a02d0418a8c61561fcc4bb, type: 3}
